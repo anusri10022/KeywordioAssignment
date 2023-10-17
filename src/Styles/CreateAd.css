@@ -1,0 +1,66 @@
+.Ad_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.card_container{
+    display: flex;
+ 
+    flex-direction: column;
+    margin: 20px;
+    border: 0.5px solid rgb(211, 211, 211);
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px 4px rgba(174, 174, 174, 0.3);
+ 
+}
+.cards_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.card_top{
+   
+    margin-right: 80%;
+}
+.card_middle{
+    width: 100%;
+}
+.card_middle img{
+    width: 80%;
+}
+.card_bottom{
+    background-color: rgb(253, 252, 252);
+    width: 100%;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.text_p{
+    color: #959595;
+}
+.textdark_p{
+    color: #000000;
+font-weight: bold;
+}
+.btn_container{ 
+    padding: 50px; 
+    text-align: right;
+}
+.Ad_title{   
+    text-align: left;
+    padding: 20px;
+    height: 20%;
+}
+.Ad_title p{
+    font-size: 24px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+}
+@media only screen and (max-width:280px){
+    .cards_container{
+        flex-direction: column;
+       
+    }
+}

@@ -1,0 +1,51 @@
+.Dashboard_container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   justify-content: center;
+   align-items: center;
+}
+.left_dash{
+  width: 80%;
+  border: 0.5px solid rgb(211, 211, 211);
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px 4px rgba(174, 174, 174, 0.3);
+margin: 10px;
+padding: 20px;
+
+}
+.right_dash{
+  width: 80%;
+  border: 0.5px solid rgb(211, 211, 211);
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px 4px rgba(174, 174, 174, 0.3);
+margin: 10px;
+padding: 20px;
+}
+.toggle_btn{
+  text-align: right;
+}
+.top_sec{
+  display: flex;
+  flex-direction: row;
+   align-items: center;
+  justify-content: center;
+  margin: auto;
+ 
+}
+.left_top_sec{
+  display: flex;
+  justify-content: center;align-items: center;
+padding: 10px;
+
+}
+.help_btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60%;
+  padding: 10px;
+}
+
+
